@@ -1,0 +1,234 @@
+body {
+    background-color: #1b1c1b;
+    width: 3208px;
+  }
+  h1 {
+    color: blue;
+  }
+  
+  .nav {
+      background-color: black;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+    height: 200px;
+  }
+  
+  .links {
+    margin-left: 1300px;
+  }
+  .topnav .links a {
+    font-family: 'Comfortaa';
+    float: left;
+    color: #f2f2f2;
+    padding: 80px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    text-shadow: 2px 2px orange;
+  }
+
+  .mainPic{
+    background-image:url("./images/rodeo-drive.jpg");
+    height: 750px;
+    border: 5px solid black;
+    background-size:     cover;
+    background-position: center center;
+  }
+
+  #imgtext{
+    font-family: 'Montserrat';
+    float: left;
+    transform: scale(1.35, 1);
+    color: rgb(244, 121, 32);
+    padding: 280px;
+    font-size: 60px;
+    margin-left: 982px;
+    text-shadow: 2px 2px white;
+  }
+
+  .mainGallery {
+    margin-top: 300px;
+    margin-left: 420px;
+    height: 1400px;
+  }
+
+ .gallery {
+    margin: 50px;
+    border: 40px solid black;
+    float: left;
+    width: 600px;
+    height: 870px;
+    background-color: black;
+    border-radius: 10px;
+    line-height: 40px; 
+  }
+  
+ .gallery img {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px
+  }
+  
+ .desc {
+    font-family: 'Comfortaa';
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    float: left;
+  }
+
+  .Heading {
+    font-size: 50px;
+
+  }
+
+  .section3 {
+    height: 700px;
+    background-color: black;
+    padding: 300px 500px 300px 480px; 
+  }
+
+  .grid-item img{
+    float: left;
+    width: 1100px;
+    height: 600px;
+  }
+
+  .grid-container {
+    display: grid;
+    float: left;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    padding-bottom: 60px;
+  }
+  .grid-item {
+    position: relative;
+    padding: 30px;
+    font-size: 30px;
+    text-align: justify;
+    color: white;
+    font-family: "Comfortaa"; 
+    line-height: 45px; 
+  }
+
+  .section4 {
+    height: 1100px;
+    padding: 300px 500px 300px 480px; 
+  }
+
+  .grid-item4 img{
+    width: 700px;
+    height: 460px;
+  }
+
+  .grid-item4{
+    text-align: justify;
+    line-height: 45px;
+    padding-left: 40px;
+
+  }
+
+  .sec4Heading {
+    padding-bottom: 60px;
+    font-size: 50px;
+    font-family: 'Montserrat';
+    color: white;
+
+  }
+
+  .rightfloat{
+    float: right; 
+  }
+
+/* sahithi */
+  .notFound{
+    background-image: linear-gradient(rgba(228, 128, 58, 0.5), rgba(228, 128, 58, 0.5)),url("./images/404-featured.jpg");
+    /* background: orange url("./images/404-featured.jpg"); */
+    height: 750px;
+    background-size:     cover;
+    background-position: center center;
+    background-color: inherit;
+    transition: background-color 1s;
+  }
+
+  #notFound{
+    font-family: 'Montserrat';
+    float: left;
+    color: 'black';
+    padding: 248px;
+    font-size: 78px;
+    margin-left: 1026px;
+    /* text-shadow: 2px 2px white; */
+  }
+
+  .para {
+    height:800px;
+    text-align: center;
+  }
+
+  #firstLine {
+    position: relative;
+    top: 287px;
+    font-size: 60px;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 600;
+  }
+
+  #secondLine {
+    position: relative;
+    top: 234px;
+    font-size: 60px;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 600;
+  }
+
+.footer {
+  position: relative;
+  bottom: 0;
+  background-color: black;
+  height: 500px;
+  width: inherit;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: 500px;
+}
+.grid-item-1 {
+ 
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  padding-top: 125px;
+  padding-left: 432px;
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: 500;
+}
+
+.grid-item-2 {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  padding-top: 72px;
+  padding-left: 773px;
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: 500;
+}
+
+pre {
+  font-size: 30px;
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: 600;
+}
+
+.grid-item-2 a {
+  text-decoration: none;
+}
+.grid-item-2 a:hover {
+  text-decoration: underline;
+}
